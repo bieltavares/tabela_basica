@@ -1,0 +1,41 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}   
+
+body{
+    margin: 0;
+}
+
+h2{
+    background-color: #616161;
+    color: #fff ; 
+    padding: 15px;  
+}
+
+/* ESTILO DA TABELA */
+table{
+    width: 80%;
+    border-collapse: collapse; 
+    margin: 0 auto;
+    
+}
+
+/* Width é ref tamanho da visualização na pagina  */
+/* Border-Collapse é para juntar as linhas e se tornar somente uma linha só */
+/* Margin 0 auto consigo centralizar  */
+
+th,td{
+padding: 10px;
+}
+/* padding é ref tamanho de cada quadrado */
+
+
+table,th,td{
+    border: 1px solid #000;
+    text-align: left;
+}
+
+
+
+/* FINAL DO ESTILO DA TABELA  */
