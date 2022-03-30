@@ -1,8 +1,10 @@
 *{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-sizing: border-box;
+
 }   
 
+/* margin 0 é ref a centralização,neste caso centralizo o body (corpo) */
 body{
     margin: 0;
 }
@@ -10,15 +12,16 @@ body{
 h2{
     background-color: #616161;
     color: #fff ; 
-    padding: 15px;  
+    padding: 15px; 
+    text-align: center; 
 }
+/* text-align center eu centralizo o texto */
 
 /* ESTILO DA TABELA */
 table{
     width: 80%;
     border-collapse: collapse; 
     margin: 0 auto;
-    
 }
 
 /* Width é ref tamanho da visualização na pagina  */
@@ -33,6 +36,38 @@ padding: 10px;
 
 table,th,td{
     border: 1px solid #000;
+    text-align: left;
+}
+
+
+th{
+    background-color: #590E07 ;
+    color: #fff;
+    height: 60px;
+}
+/* backgroud-color é ref a cor do quadrado da minha tag  */
+/* color é ref a cor que quero usar na minha tag  */
+
+
+
+/* tabela zebrada  */
+/* even = linhas Pares */
+tr:nth-child(even){
+    background-color: #993026;
+}
+
+/* odd = linhas Impares */
+tr:nth-child(odd){
+    background-color: #ec685c;
+}
+
+tr:hover{
+    background-color: #e48e5d ;
+} 
+/* tr hover é quando eu passo o mouse e muda a cor  */
+
+caption{
+    caption-side: bottom;
     text-align: left;
 }
 
